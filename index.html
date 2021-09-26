@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+  <title>AI object finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bjj.jpg">
+  <center>
+    <h1>AI Object Finder</h1>
+    <br>
+    <input id="object_input" placeholder="Type the object name here" type="text">
+    <br> <br>
+    <button onclick="find()" class="btn btn-warning"> Find </button>
+    <br> <br>
+    <h2 class="btn btn-info" id="status"></h2>
+    <h2 class="btn btn-warning" id="no"></h2>
+    <br><br>
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

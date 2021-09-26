@@ -1,0 +1,34 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status,#no
+{
+font-size: 18px;
+}
+
+body {
+
+background-position: center;
+background-size: cover;
+padding-top: 0%;
+}
+h1{
+
+background-color: cyan;
+color: rgb(192, 5, 5);
+font-weight: bold;
+font-style: italic;
+}
+
+Canvas{
+
+border:4px solid chartreuse ;
+border-radius: 20%;
+box-shadow: 10px 10px grey;
+background:linear-gradient(darkorange,lime) ;
+}
